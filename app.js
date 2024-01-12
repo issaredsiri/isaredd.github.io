@@ -63,7 +63,6 @@ function fetchPM25Data(location) {
       handlePM25DataFetchError(error);
     });
 }
-console.log(data.data.city);
 function handlePM25DataFetchError(error) {
   console.error("Error fetching PM 2.5 data:", error);
   displayError("Error fetching PM 2.5 data.");
