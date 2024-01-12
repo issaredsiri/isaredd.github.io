@@ -43,6 +43,14 @@ body {
       border-radius: 8px;
       position: relative !important;
     }
+
+    #report {
+      /* margin-top: 20px; */
+      padding: 20px;
+      background-color: #f0f0f0;
+      width: auto;
+      border-radius: 8px
+    }
     
   }
   
