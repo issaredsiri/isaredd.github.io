@@ -26,7 +26,7 @@ function initMap() {
 function createMap(center) {
   map = new google.maps.Map(document.getElementById("map"), {
     center: center,
-    zoom: 8,
+    zoom: 50,
   });
 }
 
