@@ -114,7 +114,7 @@ function displayPM25Data(pollutionData) {
   }
 
   // แสดงข้อมูล PM 2.5 และระดับคุณภาพ
-  pm25DataElement.innerHTML = `<p>PM 2.5 Level: ${aqi} (${quality} risk)</p>`;
+  pm25DataElement.innerHTML = `<p>PM 2.5 Level: (${quality} risk)</p>`;
   // เพิ่มข้อมูล PM 2.5 เพิ่มเติมตามต้องการ
 }
 
