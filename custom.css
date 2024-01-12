@@ -27,4 +27,22 @@ body {
   #error-message {
     margin-top: 10px;
   }
+
+  @media only screen and (min-width: 350px) and (max-width: 500px)  {
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    #map {
+      height: 300px;
+      width: 100%;
+      border-radius: 8px;
+      position: relative !important;
+    }
+    
+  }
   
